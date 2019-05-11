@@ -10,6 +10,8 @@ import (
 // AppServer contains the information to run a server.
 type AppServer struct {
 	UserService ginexamples.UserService
+	//add by andy
+	LinkService ginexamples.LinkService
 	Logger      *log.Logger
 	route       *gin.Engine
 }
